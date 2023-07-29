@@ -1,0 +1,57 @@
+{
+  "name": "routing-configuration",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.2",
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.6.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start:development": "env-cmd -e development react-scripts start",
+    "start:testing": "env-cmd -e testing react-scripts start",
+    "start:production": "env-cmd -e production react-scripts start",
+    "build:development": "env-cmd -e development react-scripts build",
+    "build:testing": "env-cmd -e testing react-scripts build",
+    "build:production": "env-cmd -e production react-scripts build",
+    "test:development": "env-cmd -e development react-scripts test",
+    "test:testing": "env-cmd -e testing react-scripts test",
+    "test:production": "env-cmd -e production react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "generate-react-cli": "^8.1.2"
+  }
+}
